@@ -1,12 +1,11 @@
 import React from "react";
 import "./App.css";
-// import { PorjextListScreen } from "screens/project-list";
-import { TodoList } from "./screens/TodoList/index";
+import { PorjextListScreen } from "screens/project-list/index";
+
 function App() {
   return (
     <div className="App">
-      {/* <PorjextListScreen /> */}
-      <TodoList />
+      <PorjextListScreen />
     </div>
   );
 }
